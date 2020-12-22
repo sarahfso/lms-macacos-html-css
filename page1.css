@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  padding: 16px;
+  color: black;
+}
+
+nav {
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  padding: 0 40px;
+}
+
+nav a:hover {
+  background: blueviolet;
+}
+
+.dropbutton {
+  background-color: transparent;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 268px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: cornsilk;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbutton {
+  background-color: blueviolet;
+}
+
+.bloco {
+  padding: 16px;
+}
+
+.bloco > article {
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.bloco-post {
+  background-color: aliceblue;
+  margin-bottom: 16px;
+}
+
+.bloco-post > * {
+  padding: 8px;
+}
+
+.bloco-post section > * {
+  padding: 8px;
+}
+
+.bloco-form {
+  background-color: aliceblue;
+  text-align: center;
+  color:black;
+}
+
+.bloco-form > * {
+  padding: 8px;
+}
